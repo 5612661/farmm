@@ -16,5 +16,5 @@ document.getElementById('signin-form').addEventListener('submit', function(event
     }
 
     alert('Sign in successful!');
-    // Here you can add code to handle the form submission, like sending data to a server
+    window.location.href = '/work-screen/work-screen.html'; // Redirect to work screen
 });

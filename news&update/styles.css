@@ -82,26 +82,20 @@ h2 {
 }
 
 /* Bottom Navigation */
-footer {
+.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background: white;
     padding: 10px 0;
+    text-align: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
-footer nav {
+
+.footer-icons {
     display: flex;
     justify-content: space-around;
-}
-footer nav a img {
-    width: 24px;
-    height: 24px;
-}
-footer nav .active img {
-    background: #4CAF50;
-    padding: 5px;
-    border-radius: 50%;
+    font-size: 22px;
 }
 
 /* Responsive Design */
